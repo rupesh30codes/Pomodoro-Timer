@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro Timer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <div class="main">
+        <div class="title">
+        <h1>Pomodoro Clock</h1>
+    </div>
+    <div class="set-timer">
+    <div class="break-main">
+        <h2>Break Length</h2>
+        <div class="break-length">
+        <i class="fa-solid fa-minus"></i>
+        <p > 5</p>
+        <i class="fa-solid fa-plus"></i>
+    </div>
+    </div>
+    <div class="session-main">
+        <h2>Session Length</h2>
+        <div class="session-length">
+        <i class="fa-solid fa-minus"></i>
+        <p>25</p>
+        <i class="fa-solid fa-plus"></i>
+    </div>
+    </div>
+    </div>
+    <div class="the-timer">
+        <h2 id="new">Session</h2>
+        <div class="timer">
+            <p id="minutes">24</p>
+            <p id="space">:</p>
+            <p id="seconds">59</p>
+        </div>
+    </div>
+    <div class="buttons">
+        <button class="stop">Stop</button>
+        <button class="reset">Reset</button>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
