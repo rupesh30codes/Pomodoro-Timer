@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    background-color:cadetblue;
+}
+.title{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+h1{
+    margin-top: 10px;
+    color: white;
+}
+h2{
+    color: white;
+}
+.set-timer{
+    color: white;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.break-main{
+    margin-left: 8px;
+}
+.break-length,
+.session-length{
+    display: flex;
+}
+p,i{
+    font-size: 18px;
+    margin:10px 0 0 10px; ;
+}
+p{
+    color: black;
+    padding: 10px 15px ;
+    background-color: aliceblue;
+    border-radius: 50%;
+}
+i{
+    padding: 10px 8px ;
+    border: 1px solid white;
+    border-radius:10px;
+    cursor: pointer;
+}
+.the-timer{
+    position: absolute;
+    height: 225px;
+    width: 225px;
+    top: 40%;
+    left: 42%;
+    border: 2px solid white;
+    border-radius: 50%;
+    text-align: center;
+    background-color: transparent;
+}
+
+.timer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#new{
+    margin-top: 2.5rem;
+}
+#minutes,#seconds,#space{
+    font-size: 50px;
+    background-color: transparent;
+}
+.buttons{
+    position:absolute;
+    top: 85%;
+    left: 45%;
+   
+}
+button{
+    padding: 5px 10px;
+    font-size: 20px;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    margin-right: 2rem;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+button:hover{
+    background: rgba(255, 255, 255, 0.7);
+}
