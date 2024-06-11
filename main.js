@@ -86,6 +86,7 @@ function reset() {
     timerMinutes.textContent = sessionLength;
     timerSeconds.textContent = '00';
     isTimerRunning = false;
+    document.querySelector('.stop').textContent='Play';
 }
 
 document.querySelector('.break-main .fa-minus').addEventListener('click', () => updateBreakLength(-1));
