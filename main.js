@@ -61,10 +61,10 @@ function updateTimer() {
 function toggleTimer() {
     if (isTimerRunning) {
         stop();
-        document.querySelector('.stop').textContent = 'PLAY';
+        document.querySelector('.stop').textContent = 'Play';
     } else {
         start();
-        document.querySelector('.stop').textContent = 'STOP';
+        document.querySelector('.stop').textContent = 'Stop';
     }
 }
 
